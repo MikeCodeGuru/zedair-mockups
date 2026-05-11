@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zed-Air Heating &amp; Air Conditioning Inc. | London, Ontario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <img src="zedair-logo.png" alt="Zed-Air Heating & Air Conditioning Inc." style="height:48px;width:auto;display:block;">
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="tel:5194557970" class="nav-phone">519-455-7970</a>
+        <a href="#contact" class="btn-pill">Contact Us</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-links">
+        <li><a href="#home" class="mobile-link">Home</a></li>
+        <li><a href="#services" class="mobile-link">Services</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#testimonials" class="mobile-link">Testimonials</a></li>
+        <li><a href="#faq" class="mobile-link">FAQ</a></li>
+      </ul>
+      <a href="#contact" class="btn-pill mobile-cta">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-gradient"></div>
+    <div class="hero-grid-overlay"></div>
+
+    <div class="hero-container">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Factory Authorized Carrier Dealer
+        </div>
+        <h1 class="hero-title">Heating &amp; Air Conditioning<br /><span class="hero-title-accent">Excellence.</span></h1>
+        <p class="hero-desc">A family-owned HVAC company proudly serving London and area for over 33 years. From installation to repair and maintenance — comfort delivered with integrity.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn-pill">Get a Free Quote</a>
+          <a href="#services" class="btn-ghost">Our Services <span class="arrow">&#8594;</span></a>
+        </div>
+        <div class="hero-stats-row">
+          <div class="hero-stat">
+            <span class="hero-stat-num">33+</span>
+            <span class="hero-stat-label">Years in Business</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">40+</span>
+            <span class="hero-stat-label">Years Experience</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">6</span>
+            <span class="hero-stat-label">Core Services</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="hero-card-img-wrap">
+            <img src="hero-tech2.jpg" alt="Zed-Air HVAC Technician" class="hero-card-img" />
+          </div>
+          <div class="hero-card-info">
+            <div class="hero-card-badge">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6" stroke="#6b62f2" stroke-width="1.5"/><path d="M4.5 7l2 2 3-3" stroke="#6b62f2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Certified &amp; Insured
+            </div>
+            <p class="hero-card-title">Professional HVAC Services</p>
+            <p class="hero-card-sub">London, Ontario &amp; Area</p>
+          </div>
+        </div>
+
+        <!-- Floating stats card -->
+        <div class="hero-float-card">
+          <div class="float-icon">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 2l1.8 5.4H17l-4.5 3.3 1.7 5.3L9 13l-5.2 3 1.7-5.3L1 7.4h6.2L9 2z" fill="#6b62f2"/></svg>
+          </div>
+          <div>
+            <p class="float-title">BCIN Compliant</p>
+            <p class="float-sub">Firm #3235 · Quarts Registered</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PARTNERS ===== -->
+  <section class="partners">
+    <p class="partners-label">Trusted Partners &amp; Factory Authorized Dealer</p>
+    <div class="partners-row">
+      <div class="partner-item">CARRIER</div>
+      <div class="partner-sep">·</div>
+      <div class="partner-item">LENNOX</div>
+      <div class="partner-sep">·</div>
+      <div class="partner-item">TRANE</div>
+      <div class="partner-sep">·</div>
+      <div class="partner-item">YORK</div>
+      <div class="partner-sep">·</div>
+      <div class="partner-item">DAIKIN</div>
+      <div class="partner-sep">·</div>
+      <div class="partner-item">RHEEM</div>
+      <div class="partner-sep">·</div>
+      <div class="partner-item">GOODMAN</div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="section-container">
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="section-label">
+            <span class="label-line"></span>
+            About Us
+          </div>
+          <h2 class="section-heading">A Family Business Built on Integrity &amp; Pride.</h2>
+          <p class="section-body">ZED-AIR HEATING &amp; AIR CONDITIONING INC. is a family owned and operated HVAC company proudly serving London and area for over 33 years. Started by Eric and Cindy Barron in 1993, we've grown into a multi-generation company dedicated to providing heating, air conditioning, fireplaces, ventilation systems, duct, and duct design services.</p>
+          <p class="section-body" style="margin-top:16px;">As Factory Authorized Carrier Dealers, our team delivers superior craftsmanship and exceptional customer service — ensuring optimal indoor comfort and air quality for every client.</p>
+          <a href="#contact" class="btn-ghost" style="margin-top:28px;display:inline-flex;">Learn More <span class="arrow">&#8594;</span></a>
+        </div>
+
+        <div class="about-right">
+          <div class="about-img-card">
+            <img src="commercial-install.jpg" alt="Zed-Air Installation" />
+            <div class="about-img-overlay">
+              <p>Building Comfort Through HVAC Excellence.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Values row -->
+      <div class="values-row">
+        <div class="value-card">
+          <div class="value-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2l2.2 6.6H19l-5.5 4 2.1 6.4L10 15l-5.6 4 2.1-6.4L1 8.6h6.8L10 2z" fill="rgba(107,98,242,0.7)"/></svg>
+          </div>
+          <h4>Superior Craftsmanship</h4>
+          <p>First-class workmanship on every project, from installation to repair.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8.5" stroke="rgba(107,98,242,0.7)" stroke-width="1.5"/><path d="M6.5 10l2.5 2.5 4.5-4.5" stroke="rgba(107,98,242,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Factory Authorized Carrier Dealer</h4>
+          <p>Industry-leading systems backed by manufacturer certification.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="3" y="5" width="14" height="10" rx="2" stroke="rgba(107,98,242,0.7)" stroke-width="1.5"/><path d="M7 10h6M10 7v6" stroke="rgba(107,98,242,0.7)" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h4>Fair Pricing &amp; Honest Diagnosis</h4>
+          <p>Transparent service with no surprises — just integrity and trust.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2.5L12.5 8H18l-4.5 3.3 1.7 5.2L10 13.5l-5.2 3 1.7-5.2L2 8h5.5L10 2.5z" stroke="rgba(107,98,242,0.7)" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>BCIN Compliant &amp; Fully Insured</h4>
+          <p>Licensed HVAC design firm — Firm #3235, Quarts Registered.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="section-container">
+      <div class="services-header">
+        <div>
+          <div class="section-label">
+            <span class="label-line"></span>
+            Our Services
+          </div>
+          <h2 class="section-heading">Comprehensive HVAC Services<br />for London &amp; Area</h2>
+        </div>
+        <p class="services-intro-text">We provide a full range of heating, air conditioning, fireplace, ventilation, and duct services for residential and commercial properties — with a professional approach and optimal results.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card service-card--active">
+          <div class="service-num">01</div>
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="4" y="8" width="20" height="12" rx="3" stroke="#e5e5e5" stroke-width="1.5"/><path d="M8 14h12M14 11v6" stroke="#e5e5e5" stroke-width="1.5" stroke-linecap="round"/><path d="M10 8V6M18 8V6" stroke="#e5e5e5" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h4 class="service-name">Heating System Repair &amp; Replacement</h4>
+          <p class="service-desc">Professional heating system repair and replacement services ensuring your system functions optimally — providing comfort and warmth during the colder months.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-num">02</div>
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="4" y="10" width="20" height="8" rx="2" stroke="#b2b2b2" stroke-width="1.5"/><path d="M8 14h12" stroke="#b2b2b2" stroke-width="1.5" stroke-linecap="round"/><path d="M14 6v4M14 18v4" stroke="#b2b2b2" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h4 class="service-name">Air Conditioning Installation</h4>
+          <p class="service-desc">Expert AC installation handled efficiently and effectively — ensuring your space remains cool and comfortable all year round.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 6c0 0-6 4-6 9a6 6 0 0012 0c0-5-6-9-6-9z" stroke="#b2b2b2" stroke-width="1.5" stroke-linejoin="round"/><circle cx="14" cy="15" r="2.5" stroke="#b2b2b2" stroke-width="1.5"/></svg>
+          </div>
+          <h4 class="service-name">Fireplace Maintenance &amp; Service</h4>
+          <p class="service-desc">Keep your fireplace in excellent condition with our maintenance services — providing a cozy, inviting atmosphere with complete peace of mind.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-num">04</div>
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="8" stroke="#b2b2b2" stroke-width="1.5"/><path d="M14 6v4M14 18v4M6 14h4M18 14h4" stroke="#b2b2b2" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h4 class="service-name">Ventilation System Design</h4>
+          <p class="service-desc">Customized ventilation systems tailored to your specific needs — ensuring optimal air circulation and a healthy indoor environment.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-num">05</div>
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 10h4v8H6zM18 10h4v8h-4zM10 14h8" stroke="#b2b2b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4 class="service-name">Ductwork Installation &amp; Repair</h4>
+          <p class="service-desc">Precision ductwork installation and repair ensuring seamless system operation while maximizing energy efficiency.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-num">06</div>
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="5" y="5" width="8" height="8" rx="2" stroke="#b2b2b2" stroke-width="1.5"/><rect x="15" y="5" width="8" height="8" rx="2" stroke="#b2b2b2" stroke-width="1.5"/><rect x="5" y="15" width="8" height="8" rx="2" stroke="#b2b2b2" stroke-width="1.5"/><rect x="15" y="15" width="8" height="8" rx="2" stroke="#b2b2b2" stroke-width="1.5"/></svg>
+          </div>
+          <h4 class="service-name">Custom Duct Design</h4>
+          <p class="service-desc">Fully qualified residential and light commercial HVAC design firm — BCIN compliant, fully insured, Quarts Registered (Firm #3235).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects" id="projects">
+    <div class="section-container">
+      <div class="projects-header">
+        <div>
+          <div class="section-label">
+            <span class="label-line"></span>
+            Featured Projects
+          </div>
+          <h2 class="section-heading">Our Projects Success</h2>
+        </div>
+        <p class="projects-desc">Over 33 years, we have successfully completed numerous projects across London and area — including residential homes, commercial buildings, hospitals, schools, and industrial facilities.</p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card project-card--large">
+          <img src="rooftop.jpg" alt="Rooftop AC System" />
+          <div class="project-overlay">
+            <span class="project-tag">Commercial</span>
+            <h4>Rooftop AC System</h4>
+            <p>Large-scale commercial rooftop HVAC installation</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="commercial-install.jpg" alt="Industrial HVAC" />
+          <div class="project-overlay">
+            <span class="project-tag">Industrial</span>
+            <h4>Industrial HVAC Install</h4>
+            <p>Full industrial ventilation system</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="ac-units.jpg" alt="Multi-Unit AC" />
+          <div class="project-overlay">
+            <span class="project-tag">Residential</span>
+            <h4>Multi-Unit AC System</h4>
+            <p>Residential multi-unit installation</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-footer">
+        <a href="#contact" class="btn-ghost">Get a Free Quote <span class="arrow">&#8594;</span></a>
+        <div class="project-nav">
+          <button class="nav-btn-dark">&#8592;</button>
+          <button class="nav-btn-dark">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-container">
+      <div class="testimonials-header">
+        <div class="section-label">
+          <span class="label-line"></span>
+          Testimonials
+        </div>
+        <h2 class="section-heading">What Our Clients Say</h2>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-quote-mark">&#8220;</div>
+        <p class="testimonial-text">I have worked with ZED-AIR for more than a decade, and they have been nothing short of exceptional. Their workmanship is consistently first-class, but what sets them apart is the character behind the company — a genuine family business built on integrity, reliability and pride in their craft.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">VC</div>
+          <div>
+            <p class="testimonial-name">Vasile Caniuca</p>
+            <p class="testimonial-company">Millstone Homes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="section-container">
+      <div class="faq-grid">
+        <div class="faq-left">
+          <div class="section-label">
+            <span class="label-line"></span>
+            FAQ
+          </div>
+          <h2 class="section-heading">Frequently Asked Questions</h2>
+          <p class="section-body">Everything you need to know about our HVAC services. Can't find the answer you're looking for? Call us at <strong style="color:#e5e5e5;">519-455-7970</strong>.</p>
+          <div class="faq-img-wrap">
+            <img src="tech-smiling.jpg" alt="Zed-Air Technician" />
+          </div>
+        </div>
+
+        <div class="faq-right">
+          <div class="faq-list">
+
+            <div class="faq-item open">
+              <button class="faq-question">
+                What should you check before calling for service on your furnace?
+                <span class="faq-toggle">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="#e5e5e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </button>
+              <div class="faq-answer">
+                <p>Always check your filter — even if it feels like you just replaced it, check it again! Also make sure your furnace vent terminations are not blocked or plugged. These simple checks resolve the majority of service calls.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                What should you check before calling for service on your Air Conditioner?
+                <span class="faq-toggle">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="#686868" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </button>
+              <div class="faq-answer">
+                <p>Always check your filter first — 80% of our calls are dirty filters! Also try turning off the breakers for both the A/C and furnace for a few minutes before calling.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                How often should I change my filter?
+                <span class="faq-toggle">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="#686868" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </button>
+              <div class="faq-answer">
+                <p>One of the easiest preventative maintenance tasks you can do yourself. Your filter is located in or near your indoor unit. Whether it's a basic 1-inch filter or a larger 4-inch media filter — regular replacement is key to system efficiency and indoor air quality.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                Do you provide design and consultation services?
+                <span class="faq-toggle">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="#686868" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </button>
+              <div class="faq-answer">
+                <p>Yes. We are a fully qualified residential and light commercial HVAC design firm — BCIN compliant, fully insured, and Quarts Registered (Firm #3235).</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                What areas do you serve?
+                <span class="faq-toggle">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="#686868" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </button>
+              <div class="faq-answer">
+                <p>We proudly serve London, Ontario and the surrounding area for both residential and commercial properties. Contact us at 519-455-7970 to confirm availability in your area.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta" id="contact">
+    <div class="cta-gradient"></div>
+    <div class="section-container">
+      <div class="cta-inner">
+        <div class="cta-left">
+          <div class="section-label">
+            <span class="label-line"></span>
+            Get In Touch
+          </div>
+          <h2 class="cta-heading">Get a Free Quote<br />Today!</h2>
+          <p class="cta-desc">Contact us today to schedule a consultation and get a free quote for your heating, air conditioning, fireplace or ventilation system needs.</p>
+          <div class="cta-contact-info">
+            <div class="cta-contact-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 3h3l1.5 3.5-1.75 1.25A11 11 0 009.25 10.25L10.5 8.5 14 10v3c0 .55-.45 1-1 1A12 12 0 012 3c0-.55.45-1 1-1z" stroke="#6b62f2" stroke-width="1.2" stroke-linejoin="round"/></svg>
+              <a href="tel:5194557970">519-455-7970</a>
+            </div>
+            <div class="cta-contact-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1.5C5.5 1.5 3.5 3.5 3.5 6c0 3.5 4.5 8.5 4.5 8.5S12.5 9.5 12.5 6c0-2.5-2-4.5-4.5-4.5z" stroke="#6b62f2" stroke-width="1.2"/><circle cx="8" cy="6" r="1.5" stroke="#6b62f2" stroke-width="1.2"/></svg>
+              <span>1112 Frances Street, London, Ontario N5W 5N5</span>
+            </div>
+            <div class="cta-contact-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="#6b62f2" stroke-width="1.2"/><path d="M8 4v4l2.5 2.5" stroke="#6b62f2" stroke-width="1.2" stroke-linecap="round"/></svg>
+              <span>Mon–Fri 8am–6pm · Emergency Service Available</span>
+            </div>
+          </div>
+          <a href="tel:5194557970" class="btn-pill" style="margin-top:32px;">Contact Us Now</a>
+        </div>
+
+        <div class="cta-right">
+          <div class="cta-img-card">
+            <img src="tech-working.jpg" alt="Zed-Air Technician" />
+            <div class="cta-img-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="zedair-logo.png" alt="Zed-Air Heating & Air Conditioning Inc." style="height:56px;width:auto;display:block;">
+        </div>
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer-social">
+          <a href="#" class="social-btn" aria-label="X">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-contact-row">
+        <span>&#128222; <a href="tel:5194557970">519-455-7970</a></span>
+        <span>&#127968; 1112 Frances Street, London, Ontario N5W 5N5</span>
+        <span>&#127760; <a href="https://www.zed-air.ca" target="_blank">www.zed-air.ca</a></span>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; Copyright 2025. Zed-Air Heating &amp; Air Conditioning Inc. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburger.classList.toggle('active', isOpen);
+      document.body.classList.toggle('menu-open', isOpen);
+    });
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('open');
+        hamburger.classList.remove('active');
+        document.body.classList.remove('menu-open');
+      });
+    });
+
+    // FAQ
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.faq-item');
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+    });
+  </script>
+</body>
+</html>
