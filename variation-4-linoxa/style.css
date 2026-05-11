@@ -346,8 +346,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .hero-left {
   position: absolute;
   top: 110px;
-  left: 48px;
-  max-width: 620px;
+  left: 0;
+  padding-left: 40px;
+  max-width: 640px;
 }
 .hero-label {
   display: inline-block;
