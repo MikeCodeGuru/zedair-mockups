@@ -345,7 +345,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 .hero-left {
   position: absolute;
-  top: 110px;
+  top: 50%;
+  transform: translateY(-30%);
   left: 0;
   padding-left: 40px;
   max-width: 640px;
