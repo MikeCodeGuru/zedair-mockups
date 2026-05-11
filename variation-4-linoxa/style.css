@@ -306,9 +306,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   position: relative;
   height: 100vh;
   min-height: 700px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   overflow: hidden;
 }
 
@@ -335,26 +332,22 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .hero-content {
-  position: relative;
+  position: absolute;
+  inset: 0;
   z-index: 2;
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: 0 32px;
+  left: 0;
+  right: 0;
   width: 100%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 40px;
-  padding-bottom: 80px;
-  padding-left: 48px;
+  padding: 0 48px;
 }
 
 .hero-left {
+  position: absolute;
+  top: 110px;
+  left: 48px;
   max-width: 620px;
-  margin-right: auto;
-  padding-left: 0;
-  align-self: flex-end;
-  margin-bottom: 100px;
 }
 .hero-label {
   display: inline-block;
@@ -381,7 +374,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 /* Hero Floating Card */
 .hero-card {
-  flex-shrink: 0;
+  position: absolute;
+  bottom: 80px;
+  right: 48px;
   width: 320px;
   background: rgba(255,255,255,0.12);
   backdrop-filter: blur(20px);
@@ -474,11 +469,14 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 /* Hero Description */
 .hero-desc {
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 2;
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: 0 32px 40px;
+  padding: 0 48px 40px;
   width: 100%;
 }
 .hero-desc p {
